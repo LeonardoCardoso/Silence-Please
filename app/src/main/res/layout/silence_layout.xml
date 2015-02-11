@@ -1,0 +1,250 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    tools:context=".SilencePlease" >
+
+    <RelativeLayout
+        android:id="@+id/noise_wrap"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/silence" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/drop_down"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/info_padding" >
+
+            <com.leocardz.silence.please.custom.SPTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/info_padding"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="2"
+                android:singleLine="false"
+                android:text="@string/duration"
+                android:textSize="@dimen/info_text_size" />
+
+            <com.leocardz.silence.please.custom.SPTextView
+                android:id="@+id/edge_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/honeycombish_blue"
+                android:textSize="@dimen/info_number_text_height" />
+
+            <com.leocardz.silence.please.custom.SPTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/info_padding"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/sec"
+                android:textSize="@dimen/info_text_size" />
+        </LinearLayout>
+
+        <com.leocardz.silence.please.custom.SPButton
+            android:id="@+id/stop_noise"
+            style="@style/Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/p_button"
+            android:text="@string/stop_noise"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/about_hightlight_text_size"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/listen_wrap"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:weightSum="13" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="3"
+                android:background="@drawable/drop_down"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/info_padding" >
+
+                <com.leocardz.silence.please.custom.SPTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:singleLine="false"
+                    android:text="@string/limit"
+                    android:textSize="@dimen/info_text_size" />
+
+                <com.leocardz.silence.please.custom.SPTextView
+                    android:id="@+id/limit_decibels"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/honeycombish_blue"
+                    android:textSize="@dimen/info_number_text_height" />
+
+                <com.leocardz.silence.please.custom.SPTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/db"
+                    android:textSize="@dimen/info_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="3"
+                android:background="@drawable/drop_down"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/info_padding" >
+
+                <com.leocardz.silence.please.custom.SPTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:singleLine="false"
+                    android:text="@string/current"
+                    android:textSize="@dimen/info_text_size" />
+
+                <com.leocardz.silence.please.custom.SPTextView
+                    android:id="@+id/current_decibels"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/honeycombish_blue"
+                    android:textSize="@dimen/info_number_text_height" />
+
+                <com.leocardz.silence.please.custom.SPTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:singleLine="false"
+                    android:text="@string/db"
+                    android:textSize="@dimen/info_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="3"
+                android:background="@drawable/drop_down"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/info_padding" >
+
+                <com.leocardz.silence.please.custom.SPTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:singleLine="false"
+                    android:text="@string/countdown"
+                    android:textSize="@dimen/info_text_size" />
+
+                <com.leocardz.silence.please.custom.SPTextView
+                    android:id="@+id/edge_countdown"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/honeycombish_blue"
+                    android:textSize="@dimen/info_number_text_height" />
+
+                <com.leocardz.silence.please.custom.SPTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:singleLine="false"
+                    android:text="@string/sec"
+                    android:textSize="@dimen/info_text_size" />
+            </LinearLayout>
+
+            <com.leocardz.silence.please.custom.SPButton
+                android:id="@+id/listen"
+                style="@style/Button"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/button_padding_bottom"
+                android:layout_weight="2"
+                android:background="@drawable/p_button"
+                android:text="@string/start_listen"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/about_hightlight_text_size"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/graph_table"
+                style="@style/Button"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="2"
+                android:background="@drawable/p_button"
+                android:contentDescription="@string/empty"
+                android:src="@drawable/table"
+                android:text="@string/start_listen"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/button_text_size"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/graph"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/graph_margin"
+            android:layout_marginRight="@dimen/graph_margin"
+            android:layout_marginTop="@dimen/graph_margin"
+            android:orientation="vertical"
+            android:visibility="gone" />
+
+        <include layout="@layout/table" />
+    </LinearLayout>
+
+</RelativeLayout>

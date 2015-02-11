@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_box_ics"
+    android:layout_width="280dp"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/dialog_box_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/p_action_bar_drop_shadow"
+            android:ellipsize="marquee"
+            android:gravity="left"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/soft_blue"
+            android:textSize="22sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/dialog_box_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_box_title"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textColor="@color/soft_grey"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:id="@+id/action"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_box_text"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/first_button"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/p_dialog_box_button_ics"
+            android:padding="15dp"
+            android:text="@string/cancel_button"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/second_button"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/first_button"
+            android:background="@drawable/p_dialog_box_right_button_ics"
+            android:padding="15dp"
+            android:text="@string/ok"
+            android:textColor="@android:color/black" />
+    </RelativeLayout>
+
+</RelativeLayout>

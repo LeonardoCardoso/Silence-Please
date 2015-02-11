@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="list_array">
+        <item>@string/listen</item>
+        <item>@string/table</item>
+        <item>@string/settings</item>
+    </string-array>
+    <string-array name="labels_array">
+        <item>@string/listen</item>
+        <item>@string/table</item>
+        <item>@string/settings</item>
+    </string-array>
+    <string-array name="sounds_array">
+        <item>Nuke</item>
+        <item>Silence (Male)</item>
+        <item>Silence (Female)</item>
+        <item>Ambulance</item>
+        <item>Police</item>
+        <item>Untuned Tv</item>
+    </string-array>
+    <string-array name="sounds_array_format">
+        <item>nuke.mp3</item>
+        <item>silence_male.mp3</item>
+        <item>silence_female.mp3</item>
+        <item>ambulance.wav</item>
+        <item>police.wav</item>
+        <item>untuned.wav</item>
+    </string-array>
+
+    <string name="empty"></string>
+    <string name="app_name">Silence Please</string>
+    <string name="app">Silence Please</string>
+    <string name="set_decibels">Set Decibels</string>
+    <string name="listen">Listen</string>
+    <string name="settings">Settings</string>
+    <string name="triangle">▶</string>
+    <string name="table">Table</string>
+    <string name="start_listen">Start</string>
+    <string name="stop_listen">Stop</string>
+    <string name="stop_noise">Stop\nSound</string>
+    <string name="alert">Alert</string>
+    <string name="image">Image</string>
+    <string name="sound">Sound</string>
+    <string name="sound_countdown">Sound Countdown</string>
+    <string name="sound_duration">Sound Duration</string>
+    <string name="duration">Duration</string>
+    <string name="countdown">Countdown</string>
+    <string name="current">Current</string>
+    <string name="limit">Limit</string>
+    <string name="repeat_sound">Repeat Sound</string>
+    <string name="max_decibel_level">Maximum Decibel Level</string>
+    <string name="about_text">Silence Please is currently one man project and I\'m a developer focused about using technologies to make life easier.</string>
+    <string name="totally_free">Silence Please is totally free!</string>
+    <string name="contact">Leonardo Cardoso\nleo@leocardz.com</string>
+    <string name="would_you_donate">Would you like to donate to this project? When you click this button below, you\'ll be redirected to a donation version of this app on Google Play with a cost of US$5. In donation version, there\'s only a thank-you note for supporting this work, allowing it to be under constant development and improving.</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="loading_message">Loading&#8230;</string>
+    <string name="rate_us">Rate us on Google Play</string>
+    <string name="feedback_us">Give us your feedback</string>
+    <string name="feedback_us_subtitle">Praise, question, suggestion, problem</string>
+    <string name="share">Share what\'s good</string>
+    <string name="share_subtitle">Tell your friends about Silence Please</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="donate">Donate</string>
+    <string name="about">About</string>
+    <string name="mic_error">The microphone could not be reached</string>
+    <string name="select_image">Select Image</string>
+    <string name="select_sound">Select Sound</string>
+    <string name="sp_sounds">Silence Please Sounds</string>
+    <string name="system_sounds">System Sounds</string>
+    <string name="songs">Songs</string>
+    <string name="crop_image">Crop Image</string>
+    <string name="new_image">New Image</string>
+    <string name="restore_image">Restore Image</string>
+    <string name="concept">Concept</string>
+    <string name="feedback_email">android@leocardz.com</string>
+    <string name="feedback_subject">Silence Please feedback</string>
+    <string name="feedback_via">Feedback via</string>
+    <string name="spread_subject">Silence Please App</string>
+    <string name="spread_text">Silence Please! Check out this awesome app on Google Play at https://play.google.com/store/apps/details?id=com.leocardz.silence.please\u0026feature=search_result</string>
+    <string name="share_via">Share via</string>
+    <string name="db">decibels</string>
+    <string name="sec">seconds</string>
+
+    <!-- table -->
+    <string name="sound_source_decibels">Sound Source and its decibels</string>
+    <string name="first">12 Gauge Shotgun Blast</string>
+    <string name="first_decibels">165dB</string>
+    <string name="second">Jet Engine (100ft)</string>
+    <string name="second_decibels">140dB</string>
+    <string name="third">Pneumatic Riveter (100ft)</string>
+    <string name="third_decibels">125dB</string>
+    <string name="fourth">Sandblasting, Loud Rock Concert</string>
+    <string name="fourth_decibels">115dB</string>
+    <string name="fifth">Power Saw (3ft)</string>
+    <string name="fifth_decibels">110dB</string>
+    <string name="sixth">Power Mower (3ft)</string>
+    <string name="sixth_decibels">107dB</string>
+    <string name="seventh">Motorcycle</string>
+    <string name="seventh_decibels">100dB</string>
+    <string name="eighth">Hand Drill</string>
+    <string name="eighth_decibels">98dB</string>
+    <string name="nineth">Subway Train (200ft)</string>
+    <string name="nineth_decibels">95dB</string>
+    <string name="tenth">Jackhammer (50ft)</string>
+    <string name="tenth_decibels">93dB</string>
+    <string name="eleventh">Truck Traffic</string>
+    <string name="eleventh_decibels">90dB</string>
+    <string name="twelveth">City Traffic</string>
+    <string name="twelveth_decibels">85dB</string>
+    <string name="thirteenth">Crowded Street</string>
+    <string name="thirteenth_decibels">70dB</string>
+    <string name="fourteenth">Normal Conversation (3ft)</string>
+    <string name="fourteenth_decibels">65dB</string>
+    <string name="fifteenth">Quiet Office</string>
+    <string name="fifteenth_decibels">55dB</string>
+    <string name="sixteenth">Quiet Home</string>
+    <string name="sixteenth_decibels">40dB</string>
+    <string name="seventeenth">Whisper Quiet Library</string>
+    <string name="seventeenth_decibels">30dB</string>
+    <string name="eighteenth">Rustling Leaves</string>
+    <string name="eighteenth_decibels">20dB</string>
+    <string name="nineteenth">Normal Breathing</string>
+    <string name="nineteenth_decibels">10dB</string>
+    <string name="twentieth">Weakest Sound Heard</string>
+    <string name="twentieth_decibels">0dB</string>
+    <string name="max_exposure_day">Daily Maximum Exposure</string>
+    <string name="max_exposure_day_1">8 hours | 85 decibels</string>
+    <string name="max_exposure_day_2">6 hours | 92 decibels</string>
+    <string name="max_exposure_day_3">4 hours | 95 decibels</string>
+    <string name="max_exposure_day_4">3 hours | 97 decibels</string>
+    <string name="max_exposure_day_5">2 hours | 100 decibels</string>
+    <string name="max_exposure_day_6">1 hour and 30 minutes | 102 decibels</string>
+    <string name="max_exposure_day_7">1 hour | 105 decibels</string>
+    <string name="max_exposure_day_8">30 minutes | 110 decibels</string>
+    <string name="max_exposure_day_9">Less than 15 minutes | 115 decibels</string>
+    <string name="title_activity_image_selection">Image</string>
+    <string name="action_settings">Settings</string>
+    <string name="change_button">Change</string>
+    <string name="save_button">Save</string>
+    <string name="crop">Crop</string>
+    <string name="rotate_button">Rotate</string>
+    <string name="not_enough_space">Not enough space to save the picture</string>
+    <string name="no_storage_card">No storage card was found</string>
+    <string name="preparing_card">Preparing card&#8230;</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="discard_button">Discard</string>
+    <string name="dialog_title_whoops">Whoops!</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="close_button">Close</string>
+    <string name="ok">OK</string>
+    <string name="illimited">Illimited</string>
+    <string name="immediately">Immediately</string>
+
+</resources>

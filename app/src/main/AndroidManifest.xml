@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.leocardz.silence.please"
+    android:installLocation="preferExternal" >
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app"
+        android:theme="@style/App.ThemeMainWhite" >
+        <activity
+            android:name=".AppInit"
+            android:screenOrientation="portrait"
+            android:theme="@style/App.Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SilencePlease"
+            android:configChanges="orientation"
+            android:label="@string/app"
+            android:screenOrientation="portrait"
+            android:theme="@style/App.ThemeMainWhite" >
+        </activity>
+        <activity
+            android:name=".ImageSelection"
+            android:configChanges="orientation"
+            android:label="@string/app"
+            android:screenOrientation="portrait"
+            android:theme="@style/App.ThemeMainWhite" >
+        </activity>
+        <activity
+            android:name=".CropImage"
+            android:configChanges="orientation"
+            android:label="@string/crop_image"
+            android:screenOrientation="portrait"
+            android:theme="@style/App.ThemeMainBlack"
+            android:uiOptions="splitActionBarWhenNarrow" >
+        </activity>
+        <activity
+            android:name=".crop.MonitoredActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".dialog.LightThemeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SampleTheme.Light" />
+    </application>
+
+</manifest>

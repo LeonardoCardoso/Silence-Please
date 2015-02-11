@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <shape>
+            <padding android:bottom="1dp" />
+
+            <solid android:color="@color/zeroth_shadow" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:bottom="1dp" />
+
+            <solid android:color="@color/first_shadow" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:bottom="1dp" />
+
+            <solid android:color="@color/second_shadow" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:bottom="1dp" />
+
+            <solid android:color="@color/third_shadow" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:bottom="1dp" />
+
+            <solid android:color="@color/fourth_shadow" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/p_background">
+    </item>
+
+</layer-list>

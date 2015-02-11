@@ -1,0 +1,60 @@
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="loading">18sp</dimen>
+    <dimen name="nothing_yet">22sp</dimen>
+
+    <!-- Drawer list -->
+    <dimen name="drawer_list_selected_item">5dp</dimen>
+    <dimen name="drawer_list_width">240dp</dimen>
+    <dimen name="drawer_list_item_text_size">24sp</dimen>
+    <dimen name="drawer_list_item_padding_x_axis">5dp</dimen>
+    <dimen name="drawer_list_item_padding_y_axis">5dp</dimen>
+
+    <!-- About -->
+    <dimen name="about_padding_content">5dp</dimen>
+    <dimen name="about_title_size">70sp</dimen>
+    <dimen name="about_text_size">20sp</dimen>
+    <dimen name="about_button_text_size">30sp</dimen>
+    <dimen name="about_hightlight_text_size">22sp</dimen>
+
+    <!-- Settings list -->
+    <dimen name="settings_padding_content">10dp</dimen>
+    <dimen name="settings_list_item_text_size">22sp</dimen>
+    <dimen name="settings_list_item_summary_size">17sp</dimen>
+    <dimen name="settings_list_item_summary_center_size">22sp</dimen>
+
+    <!-- Group list -->
+    <dimen name="group_description_text_size">24sp</dimen>
+    <dimen name="group_info_text_size">14sp</dimen>
+    <dimen name="group_numbers_text_size">20sp</dimen>
+    <dimen name="group_width_info_box">100sp</dimen>
+    <dimen name="group_address_text_size">16sp</dimen>
+
+    <!-- Country list -->
+    <dimen name="country_current_margin">30dp</dimen>
+    <dimen name="country_filter_margin">10dp</dimen>
+
+    <!-- Route list -->
+    <dimen name="route_list_item_title_size">22sp</dimen>
+    <dimen name="route_list_item_text_size">20sp</dimen>
+    <dimen name="route_list_item_data_size">30sp</dimen>
+
+    <!-- Location list -->
+    <dimen name="location_height">140dp</dimen>
+
+    <!-- New -->
+    <dimen name="graph_margin">10dp</dimen>
+    <dimen name="button_text_size">20sp</dimen>
+    <dimen name="info_text_size">14sp</dimen>
+    <dimen name="info_height">100dp</dimen>
+    <dimen name="info_number_text_height">30sp</dimen>
+    <dimen name="info_padding">10dp</dimen>
+    <dimen name="button_padding_bottom">5dp</dimen>
+    <dimen name="table_decibel_text">20sp</dimen>
+    <dimen name="table_text">16sp</dimen>
+
+    <!-- New -->
+
+</resources>

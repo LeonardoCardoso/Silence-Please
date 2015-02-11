@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/settings_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left|center"
+    android:paddingBottom="0dp"
+    android:paddingTop="10dp" >
+
+    <com.leocardz.silence.please.custom.SPTextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/p_settings_categoty_title"
+        android:gravity="center"
+        android:paddingBottom="3dp"
+        android:paddingTop="15dp"
+        android:textAllCaps="true"
+        android:textColor="@color/honeycombish_blue"
+        android:textSize="@dimen/settings_list_item_text_size" />
+
+    <TextView
+        android:id="@+id/summary"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone" >
+    </TextView>
+
+</RelativeLayout>

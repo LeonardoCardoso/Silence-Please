@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/p_list_view_item_sliding_menu" >
+
+    <TextView
+        android:id="@+id/selected_item"
+        android:layout_width="@dimen/drawer_list_selected_item"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/bg_title_tile"
+        android:visibility="visible" >
+    </TextView>
+
+    <com.leocardz.silence.please.custom.SPTextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/selected_item"
+        android:paddingBottom="@dimen/drawer_list_item_padding_x_axis"
+        android:paddingLeft="@dimen/drawer_list_item_padding_y_axis"
+        android:paddingTop="@dimen/drawer_list_item_padding_x_axis"
+        android:textColor="@color/soft_grey"
+        android:textSize="@dimen/drawer_list_item_text_size" />
+
+</RelativeLayout>

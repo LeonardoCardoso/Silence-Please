@@ -1,0 +1,351 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/table"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:visibility="gone"
+    android:weightSum="10" >
+
+    <RelativeLayout
+        android:id="@+id/second_wrap"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/graph_margin"
+        android:paddingRight="@dimen/graph_margin" >
+
+        <TextView
+            android:id="@+id/second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/second_decibels"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="2"
+            android:singleLine="false"
+            android:text="@string/second"
+            android:textSize="@dimen/table_text" />
+
+        <com.leocardz.silence.please.custom.SPTextView
+            android:id="@+id/second_decibels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="@string/second_decibels"
+            android:textSize="@dimen/table_decibel_text" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/third_wrap"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/graph_margin"
+        android:paddingRight="@dimen/graph_margin" >
+
+        <TextView
+            android:id="@+id/third"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/third_decibels"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="2"
+            android:singleLine="false"
+            android:text="@string/third"
+            android:textSize="@dimen/table_text" />
+
+        <com.leocardz.silence.please.custom.SPTextView
+            android:id="@+id/third_decibels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="@string/third_decibels"
+            android:textSize="@dimen/table_decibel_text" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fourth_wrap"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/graph_margin"
+        android:paddingRight="@dimen/graph_margin" >
+
+        <TextView
+            android:id="@+id/fourth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/fourth_decibels"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="2"
+            android:singleLine="false"
+            android:text="@string/fifth"
+            android:textSize="@dimen/table_text" />
+
+        <com.leocardz.silence.please.custom.SPTextView
+            android:id="@+id/fourth_decibels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="@string/fifth_decibels"
+            android:textSize="@dimen/table_decibel_text" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fifth_wrap"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/graph_margin"
+        android:paddingRight="@dimen/graph_margin" >
+
+        <TextView
+            android:id="@+id/fifth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/fifth_decibels"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="2"
+            android:singleLine="false"
+            android:text="@string/seventh"
+            android:textSize="@dimen/table_text" />
+
+        <com.leocardz.silence.please.custom.SPTextView
+            android:id="@+id/fifth_decibels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="@string/seventh_decibels"
+            android:textSize="@dimen/table_decibel_text" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sixth_wrap"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/graph_margin"
+        android:paddingRight="@dimen/graph_margin" >
+
+        <TextView
+            android:id="@+id/sixth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/sixth_decibels"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="2"
+            android:singleLine="false"
+            android:text="@string/twelveth"
+            android:textSize="@dimen/table_text" />
+
+        <com.leocardz.silence.please.custom.SPTextView
+            android:id="@+id/sixth_decibels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="@string/twelveth_decibels"
+            android:textSize="@dimen/table_decibel_text" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/seventh_wrap"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/graph_margin"
+        android:paddingRight="@dimen/graph_margin" >
+
+        <TextView
+            android:id="@+id/seventh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/seventh_decibels"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="2"
+            android:singleLine="false"
+            android:text="@string/thirteenth"
+            android:textSize="@dimen/table_text" />
+
+        <com.leocardz.silence.please.custom.SPTextView
+            android:id="@+id/seventh_decibels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="@string/thirteenth_decibels"
+            android:textSize="@dimen/table_decibel_text" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/eighth_wrap"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/graph_margin"
+        android:paddingRight="@dimen/graph_margin" >
+
+        <TextView
+            android:id="@+id/eighth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/eighth_decibels"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="2"
+            android:singleLine="false"
+            android:text="@string/fourteenth"
+            android:textSize="@dimen/table_text" />
+
+        <com.leocardz.silence.please.custom.SPTextView
+            android:id="@+id/eighth_decibels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="@string/fourteenth_decibels"
+            android:textSize="@dimen/table_decibel_text" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/nineth_wrap"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/graph_margin"
+        android:paddingRight="@dimen/graph_margin" >
+
+        <TextView
+            android:id="@+id/nineth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/nineth_decibels"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="2"
+            android:singleLine="false"
+            android:text="@string/sixteenth"
+            android:textSize="@dimen/table_text" />
+
+        <com.leocardz.silence.please.custom.SPTextView
+            android:id="@+id/nineth_decibels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="@string/sixteenth_decibels"
+            android:textSize="@dimen/table_decibel_text" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tenth_wrap"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/graph_margin"
+        android:paddingRight="@dimen/graph_margin" >
+
+        <TextView
+            android:id="@+id/tenth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/tenth_decibels"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="2"
+            android:singleLine="false"
+            android:text="@string/seventeenth"
+            android:textSize="@dimen/table_text" />
+
+        <com.leocardz.silence.please.custom.SPTextView
+            android:id="@+id/tenth_decibels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="@string/seventeenth_decibels"
+            android:textSize="@dimen/table_decibel_text" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/eleventh_wrap"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/graph_margin"
+        android:paddingRight="@dimen/graph_margin" >
+
+        <TextView
+            android:id="@+id/eleventh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/eleventh_decibels"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="2"
+            android:singleLine="false"
+            android:text="@string/eighteenth"
+            android:textSize="@dimen/table_text" />
+
+        <com.leocardz.silence.please.custom.SPTextView
+            android:id="@+id/eleventh_decibels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="@string/eighteenth_decibels"
+            android:textSize="@dimen/table_decibel_text" />
+    </RelativeLayout>
+
+</LinearLayout>

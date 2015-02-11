@@ -1,0 +1,63 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 20
+    buildToolsVersion "20.0.0"
+
+    defaultConfig {
+        applicationId "com.leocardz.silence.please"
+        minSdkVersion 8
+        targetSdkVersion 20
+        versionCode 20
+        versionName "2.0"
+    }
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    buildTypes {
+        release {
+            zipAlign true
+            runProguard true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    signingConfigs {
+
+        debug {
+            storeFile file("debug.keystore")
+        }
+
+    }
+
+    packagingOptions {
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice'
+        exclude 'META-INF/NOTICE'
+    }
+}
+
+dependencies {
+    compile 'com.actionbarsherlock:actionbarsherlock:4.4.0@aar'
+    compile 'com.android.support:support-v4:20.0.+'
+    compile 'com.leocardz:link-preview:1.1@aar'
+    compile 'com.graphview:graphview:3.1.2'
+    compile 'com.holoeverywhere:holoeverywhere:1.0@aar'
+    compile 'net.simonvt.numberpicker:android-numberpicker:1.0.0'
+    compile 'com.github.johnkil.android-appmsg:appmsg:1.2.0'
+    compile 'com.viewpagerindicator:viewpagerindicator:1.0@aar'
+    compile 'asia.ivity.android:drag-sort-listview-apklib:1.0@apklib'
+}

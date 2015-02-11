@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/item_turn_left"
+        android:icon="@drawable/rotate_left"
+        android:showAsAction="always"
+        android:title="@string/left"/>
+    <item
+        android:id="@+id/item_save"
+        android:showAsAction="always"
+        android:title="@string/crop"/>
+    <item
+        android:id="@+id/item_turn_right"
+        android:icon="@drawable/rotate_right"
+        android:showAsAction="always"
+        android:title="@string/right"/>
+
+</menu>

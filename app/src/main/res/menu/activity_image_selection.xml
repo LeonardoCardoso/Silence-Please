@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/restore_image"
+        android:icon="@drawable/action_restore"
+        android:showAsAction="always"
+        android:title="@string/restore_image"/>
+    <item
+        android:id="@+id/new_image"
+        android:icon="@drawable/ic_new_image"
+        android:showAsAction="always"
+        android:title="@string/new_image"/>
+
+</menu>

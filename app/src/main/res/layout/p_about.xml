@@ -1,0 +1,76 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:paddingLeft="@dimen/about_padding_content"
+    android:paddingRight="@dimen/about_padding_content"
+    android:scrollbars="none" >
+
+    <RelativeLayout
+        android:id="@+id/about_wrap"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp" >
+
+        <com.leocardz.silence.please.custom.SPTextView
+            android:id="@+id/g2g"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:text="@string/app"
+            android:textColor="@color/honeycombish_blue"
+            android:textSize="@dimen/about_title_size" />
+
+        <com.leocardz.silence.please.custom.SPTextView
+            android:id="@+id/about_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/g2g"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="@string/about_text"
+            android:textColor="@color/soft_grey"
+            android:textSize="@dimen/about_text_size" />
+
+        <com.leocardz.silence.please.custom.SPTextView
+            android:id="@+id/totally_free"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/about_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="@string/totally_free"
+            android:textColor="@color/soft_grey"
+            android:textSize="@dimen/about_hightlight_text_size" />
+
+        <com.leocardz.silence.please.custom.SPTextView
+            android:id="@+id/contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/totally_free"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="@string/contact"
+            android:textColor="@color/honeycombish_blue"
+            android:textSize="@dimen/about_hightlight_text_size" />
+    </RelativeLayout>
+
+</ScrollView>
