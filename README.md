@@ -5,7 +5,7 @@ Developed by <a href='https://github.com/LeonardoCardoso' target='_blank'>@Leona
 
 Control the ambient sound by a sound level limit. When it is exceeded, the "Silence Please" will alert!
 
-Source code of the app https://play.google.com/store/apps/details?id=com.leocardz.silence.please&feature=search_result
+[![URL](https://developer.android.com/images/brand/en_generic_rgb_wo_60.png)](https://play.google.com/store/apps/details?id=com.leocardz.silence.please&feature=search_result)
 
 For more details, visit http://android.leocardz.com/silence-please/
 
