@@ -5,26 +5,26 @@ Developed by <a href='https://github.com/LeonardoCardoso' target='_blank'>@Leona
 
 Control the ambient sound by a sound level limit. When it is exceeded, the "Silence Please" will alert!
 
-[![URL](https://developer.android.com/images/brand/en_generic_rgb_wo_60.png)](https://play.google.com/store/apps/details?id=com.leocardz.silence.please&feature=search_result)
+[![URL](http://leocardz.com/utils/assets/img/company/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.leocardz.silence.please&feature=search_result)
 
 For more details, visit http://android.leocardz.com/silence-please/
 
 
-![](https://dl.dropboxusercontent.com/s/f793d1bvbll0915/1sp.png)
+![](http://i.imgur.com/D2LkFGl.png)
 
-![](https://dl.dropboxusercontent.com/s/psb9occ7jb8hjez/2sp.png)
+![](http://i.imgur.com/CWCuf2d.png)
 
-![](https://dl.dropboxusercontent.com/s/hxglrv2ov2ciwct/3sp.png)
+![](http://i.imgur.com/WtBEWuo.png)
 
-![](https://dl.dropboxusercontent.com/s/yf16eo47vlq5dbo/4sp.png)
+![](http://i.imgur.com/yJykWmA.png)
 
-![](https://dl.dropboxusercontent.com/s/jjm87p4s8q64prf/5sp.png)
+![](http://i.imgur.com/VLjh1UI.png)
 
-![](https://dl.dropboxusercontent.com/s/bonl7s1xkw15cfn/6sp.png)
+![](http://i.imgur.com/q7B6kvN.png)
 
-![](https://dl.dropboxusercontent.com/s/wyc4y063qd2wzn9/7sp.png)
+![](http://i.imgur.com/fOxbTJu.png)
 
-![](https://dl.dropboxusercontent.com/s/y47tli9h0cuymwb/8sp.png)
+![](http://i.imgur.com/UqaCPgS.png)
 
 
 ## License
