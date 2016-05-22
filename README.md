@@ -26,6 +26,8 @@ For more details, visit http://android.leocardz.com/silence-please/
 
 ![](http://i.imgur.com/UqaCPgS.png)
 
+## Contact
+Contact me either by Twitter [@leocardz](https://twitter.com/leocardz) or emailing me to [contact@leocardz.com](mailto:contact@leocardz.com).
 
 ## License
 
