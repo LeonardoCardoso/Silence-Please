@@ -7,8 +7,6 @@ Control the ambient sound by a sound level limit. When it is exceeded, the "Sile
 
 [![URL](http://leocardz.com/utils/assets/img/company/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.leocardz.silence.please&feature=search_result)
 
-For more details, visit http://android.leocardz.com/silence-please/
-
 
 ![](http://i.imgur.com/D2LkFGl.png)
 
